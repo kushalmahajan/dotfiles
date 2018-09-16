@@ -1,39 +1,21 @@
 {
-  "window.zoomLevel": -1,
-  "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 29,
-  "editor.lineHeight": 40,
-  "editor.letterSpacing": 0.5,
-  "workbench.editor.tabSizing": "shrink",
-  "html.format.enable": true,
-  "html.format.preserveNewLines": true,
-  "files.trimTrailingWhitespace": true,
-  "editor.tabSize": 2,
-  // this isn't really underline but we hack it to be a thicker cursor
-  "editor.cursorStyle": "line",
-  "editor.cursorWidth": 3, 
-  "editor.wordWrap": "on",
+  "atomKeymap.promptV3Features": true,
   "editor.multiCursorModifier": "ctrlCmd",
-  "editor.fontWeight": "400",
-  "editor.cursorBlinking": "solid",
-  "editor.colorDecorators": false,
-  "editor.minimap.enabled": false,
-  "vscode_custom_css.imports": [
-    "/Volumes/Macintosh HD/Users/wesbos/.vscodestyles.css"
-  ],
-  "workbench.activityBar.visible": true,
-  "workbench.sideBar.location": "left",
-  "gitlens.blame.line.enabled": false,
-  "editor.renderWhitespace": "none",
-  "editor.rulers": [
-    80,
-    100,
-    120
-  ],
-  "editor.minimap.showSlider": "always",
-  "workbench.startupEditor": "newUntitledFile",
-  "extensions.ignoreRecommendations": false,
+  "editor.formatOnPaste": true,
+  "eslint.packageManager": "yarn",
+  "workbench.editor.enablePreview": true,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Atom One Dark",
+  "editor.fontSize": 11.4,
+  "editor.tabSize": 4,
+  "editor.hover.enabled": true,
   "files.exclude": {
+    "USE_GITIGNORE": true,
+    "node_modules": true,
+    "**/.log": true,
+    "**/.md": true,
+    "**/.lock": true,
+    ".history": true,
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
@@ -41,23 +23,32 @@
     "**/.DS_Store": true,
     "**/.next": true
   },
-  "workbench.colorTheme": "Cobalt2",
-  "workbench.editor.tabCloseButton": "off",
+  "editor.minimap.enabled": true,
+  "editor.cursorWidth": 3,
+  "editor.cursorBlinking": "solid",
+  "workbench.activityBar.visible": true,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  // show snippets before any other auto completion
-  "editor.snippetSuggestions": "top",
-  // this lets you quickly open multiple items in a row and not have the previous ones closed on you
-  "workbench.editor.enablePreviewFromQuickOpen": false,
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
-  "sublimeTextKeymap.promptV3Features": true,
-  // These are all my auto-save configs
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    ".history": true
+  },
+  "git.confirmSync": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.rendererType": "dom",
+  "vsicons.dontShowNewVersionMessage": true,
   "editor.formatOnSave": true,
-  // turn it off for JS
   "[javascript]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
   },
   "eslint.autoFixOnSave": true,
+  "editor.autoIndent": false,
+  "editor.trimAutoWhitespace": true,
   "eslint.alwaysShowStatus": true,
+  "breadcrumbs.enabled": true,
+  "workbench.startupEditor": "newUntitledFile"
 }
