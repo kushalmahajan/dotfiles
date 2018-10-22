@@ -1,0 +1,33 @@
+module.exports = {
+    root: true,
+    env: {
+        node: true
+    },
+    extends: ["plugin:vue/essential", "@vue/prettier", 'plugin:prettier/recommended'],
+    rules: {
+        "no-console": process.env.NODE_ENV === "production" ? "error" : "off",
+        "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off",
+        "space-unary-ops": [
+            2, {
+                "words": true,
+                "nonwords": false,
+                "overrides": {
+                    "new": false
+                }
+            }],
+        "spaced-comment": ["error", "always"],
+        "vue/max-attributes-per-line": 3,
+         "vue/html-self-closing": ["error", {
+            "html": {
+            "void": "never",
+            "normal": "never",
+            "component": "never"
+            },
+            "svg": "never",
+            "math": "never"
+        }]
+    },
+    parserOptions: {
+        parser: "babel-eslint"
+    }
+};
