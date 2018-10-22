@@ -84,5 +84,11 @@
             "language": "javascriptreact",
             "autoFix": true
         }
-    ]
+    ],
+    "search.quickOpen.includeHistory": false,
+    "files.enableTrash": false,
+    "editor.tabCompletion": "on",
+    "editor.suggest.localityBonus": true,
+    "git.inputValidationLength": 1000
+    
 }
