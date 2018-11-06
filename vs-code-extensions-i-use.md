@@ -1,5 +1,25 @@
 Here are a list of all the extensions I use. This is an ever-changing setup, so if you saw me use something in a video or screenshot, it might be in this list!
 
+My short list- 
+
+code --install-extension akamud.vscode-theme-onedark
+code --install-extension bierner.emojisense
+code --install-extension bungcip.better-toml
+code --install-extension cssho.vscode-svgviewer
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension eamodio.gitlens
+code --install-extension eg2.tslint
+code --install-extension esbenp.prettier-vscode
+code --install-extension humao.rest-client
+code --install-extension jpoissonnier.vscode-styled-componentscode --install-extension mikestead.dotenv
+code --install-extension ms-vscode.atom-keybindingscode --install-extension msjsdiag.debugger-for-chrome
+code --install-extension octref.veturcode --install-extension Orta.vscode-jest
+code --install-extension redhat.javacode --install-extension robertohuertasm.vscode-icons
+code --install-extension robinbentley.sass-indentedcode --install-extension rust-lang.rust
+code --install-extension shd101wyy.markdown-preview-enhancedcode --install-extension tomoki1207.pdf
+code --install-extension wayou.vscode-todo-highlight
+code --install-extension wix.vscode-import-costcode --install-extension xyz.local-history
+
 
 * https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets
 * https://marketplace.visualstudio.com/items?itemName=BriteSnow.vscode-toggle-quotes
